@@ -74,3 +74,131 @@ body {
     color: #fff;
     background: #323232;
 }
+
+.banner {
+    height: 930px;
+    background: url(../img/banner.png)no-repeat center/cover;
+    position: relative;
+}
+
+.banner__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 153px;
+}
+
+.banner__title-txt {
+    font-family: 'Montserrat';
+    font-size: 50px;
+    font-weight: 700;
+    max-width: 530px;
+    width: 100%;
+    color: #323232;
+}
+
+.banner__google {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+    max-width: 625px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 27px 99px;
+    background: #FFFFFF66;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 59px 30px -40px #0085FF1A;
+
+}
+
+.banner__google-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+
+}
+
+.currency{
+    padding: 120px 0 50px;
+}
+
+.currency__well-title {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 700;
+    color: #626262;
+}
+
+.currency__img{
+    max-width: 500px;
+    width: 100%;
+}
+
+.currency__wrap {
+    display: flex;
+    align-items: center;
+    gap: 172px;
+}
+
+.currency__well {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 642px;
+    width: 100%;
+}
+
+
+
+.currency__well-cash {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+}
+
+.currency__well-cash_card {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background: #FFFFFF;
+    padding: 15px;
+    border-radius: 13px;
+    max-width: 306px;
+    width: 100%;
+    box-shadow: 0px 30px 30px -15px #0085FF1A;
+    position: relative;
+    width: 100%;
+}
+
+.currency__well-cash_card-p {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.38px;
+    text-align: left;
+    display: flex;
+    gap: 72px;
+
+}
+
+.currency__well-cash_card-p span {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+    text-align: left;
+
+}
+
+.currency__well-cash_card:after {
+    position: absolute;
+    content: url(../img/lines.png);
+    top: 23px;
+    left: 110px;
+    
+}
